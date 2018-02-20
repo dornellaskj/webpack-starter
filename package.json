@@ -1,0 +1,26 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "webpack-starter built by Kevin Dornellas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "webpack-dev-server --config=config/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dornellaskj/"
+  },
+  "keywords": [
+    "node",
+    "dev",
+    "starter"
+  ],
+  "author": "Kevin D'Ornellas",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0"
+  }
+}
