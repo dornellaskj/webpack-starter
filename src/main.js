@@ -1,2 +1,5 @@
 require("./main.css");
-console.log("hello");
+require("./index.html");
+var a = () => {
+  console.log("hello Hyrule!");
+}
